@@ -1,0 +1,19 @@
+.responses-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responses-table th,
+.responses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.responses-table th {
+    background-color: #f2f2f2;
+}
+
+.responses-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
